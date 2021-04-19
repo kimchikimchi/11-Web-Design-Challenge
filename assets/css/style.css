@@ -1,4 +1,5 @@
 main {
+    max-width: 1200px;
     background-color: lightgrey;
     margin: auto;
     padding-block: 40px;
@@ -12,10 +13,6 @@ article {
     line-height: 2;
 }
 
-p {
-
-}
-
 .navbar {
     margin-bottom: 0px;
 }
@@ -25,7 +22,6 @@ p {
 }
 
 .row {
-    max-width: 1200px;
     margin: auto;
 }
 
@@ -39,6 +35,8 @@ p {
 .thumbnail {
     width: 100px;
     height: 100px;
+    margin: 5px;
     padding: 0px;
+    float: left; 
+    /*Make sure thumbnails all stick together when resizing screen */
 }
-
