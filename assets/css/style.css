@@ -1,3 +1,42 @@
-.dropdown-toggle{
+main {
+    background-color: lightgrey;
+    margin: auto;
+    padding-block: 40px;
+}
+
+article {
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    margin-bottom: 30px;
+    line-height: 2;
+}
+
+p {
+
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+.dropdown-toggle { 
     height: 50px;
+}
+
+.row {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.image-portrait {
+    width: 200px;
+    height: 200px;
+    float: left;
+    padding: 5px;
+}
+
+.thumbnail {
+    width: 100px;
+    height: 100px;
 }

@@ -13,35 +13,73 @@
 </head>
 
 <body>
-  <!-- Header & Nav Bar-->
-  <div class="container">
-    <nav class="navbar">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="#">Latitude</a>
+  <header>
+    <!-- Header & Nav Bar-->
+    <div class="container">
+      <nav class="navbar">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">Latitude</a>
+          </div>
+          <!-- use navbar-right for the right alignment-->
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Plots
+                <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Max Temperature</a></li>
+                  <li><a href="#">Humidity</a></li>
+                  <li><a href="#">Cloudiness</a></li>
+                  <li><a href="#">Wind Speed</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="#">Comparison</a></li>
+            <li><a href="#">Data</a></li>
+          </ul>
         </div>
-        <!-- use navbar-right for the right alignment-->
-        <ul class="nav navbar-nav navbar-right">
-          <li>
-            <div class="dropdown">
-              <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Plots
-              <span class="caret"></span></button>
-              <ul class="dropdown-menu">
-                <li><a href="#">Max Temperature</a></li>
-                <li><a href="#">Humidity</a></li>
-                <li><a href="#">Cloudiness</a></li>
-                <li><a href="#">Wind Speed</a></li>
-              </ul>
-            </div>
-          </li>
-          <li><a href="#">Comparison</a></li>
-          <li><a href="#">Data</a></li>
-        </ul>
-      </div>
-    </nav>
-  </div>
-
+      </nav>
+    </div>
+  </header>
+  
   <!-- Main Content-->
-
+  <main>
+    <div class="row">
+      <div class="col-md-9 col-sm-12">
+        <article>
+          <h3>Summary: Latitude vs. X</h3>
+          <hr>
+          <img src="assets/images/Fig1.png" class="image-portrait" alt="">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque minima quaerat eos deleniti corrupti, officia porro a veritatis eligendi tempora aut ipsum placeat similique quisquam accusantium, nam minus aliquam eum. Fugiat suscipit dignissimos ipsam laboriosam debitis veniam iusto recusandae alias illo sunt quia ullam aliquid architecto commodi sint ducimus velit, in ipsum sapiente quam reiciendis perspiciatis tempore! Earum, debitis eius!
+          Est sed accusantium rem ipsum repellendus vitae rerum necessitatibus fugiat sunt consequatur cum fuga quasi ipsa deserunt nemo omnis eius provident perferendis voluptatem, nihil tempore voluptatibus sequi. Voluptates, blanditiis iure!
+          <p>
+          Voluptate cum minus nulla inventore. Quod, illo qui laudantium aspernatur labore omnis adipisci quis at quos sint quae iste sit porro praesentium autem cumque? Esse officiis a eligendi libero hic?
+          Sint vel incidunt, alias porro dolorem aliquam quam velit saepe tenetur, ipsam fugiat? Assumenda reiciendis voluptate praesentium ad natus alias temporibus cupiditate facilis et non suscipit, error provident quod illo?
+        </article>
+      </div>
+      <div id="visual" class="col-md-3 col-sm-12">
+        <article>
+          <h3>Visualizations</h3>
+          <hr>
+          <div class="row">
+            <div class="col-md-6 col-sm-3">
+              <img class="thumbnail" src="assets/images/Fig1.png" alt="Fig 1">
+            </div>
+            <div class="col-md-6 col-sm-3">
+              <img class="thumbnail" src="assets/images/Fig2.png" alt="Fig 2">
+            </div>
+            <div class="col-md-6 col-sm-3">
+              <img class="thumbnail" src="assets/images/Fig3.png" alt="Fig 3">
+            </div>
+            <div class="col-md-6 col-sm-3">
+              <img class="thumbnail" src="assets/images/Fig4.png" alt="Fig 4">
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+ 
+  </main>
 </body>
 </html>
