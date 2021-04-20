@@ -1,96 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Latitude</title>
-</head>
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" href="assets/css/style.css">
+      <title>Latitude</title>
+  </head>
 
-
-<body>
-  <header>
-    <!-- Header & Nav Bar-->
-    <div class="container">
-      <nav class="navbar">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="#">Latitude</a>
+  <body>
+    <header>
+      <!-- Header & Nav Bar-->
+      <div class="container">
+        <nav class="navbar">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="#">Latitude</a>
+            </div>
+            <!-- use navbar-right for the right alignment-->
+            <ul class="nav navbar-nav navbar-right">
+              <li>
+                <div class="dropdown">
+                  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Plots
+                  <span class="caret"></span></button>
+                  <ul class="dropdown-menu">
+                    <li><a href="maxtemp.html">Max Temperature</a></li>
+                    <li><a href="humidity.html">Humidity</a></li>
+                    <li><a href="cloudiness.html">Cloudiness</a></li>
+                    <li><a href="windspeed.html">Wind Speed</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li><a href="comparison.html">Comparison</a></li>
+              <li><a href="data.html">Data</a></li>
+            </ul>
           </div>
-          <!-- use navbar-right for the right alignment-->
-          <ul class="nav navbar-nav navbar-right">
-            <li>
-              <div class="dropdown">
-                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Plots
-                <span class="caret"></span></button>
-                <ul class="dropdown-menu">
-                  <li><a href="maxtemp.html">Max Temperature</a></li>
-                  <li><a href="humidity.html">Humidity</a></li>
-                  <li><a href="cloudiness.html">Cloudiness</a></li>
-                  <li><a href="windspeed.html">Wind Speed</a></li>
-                </ul>
-              </div>
-            </li>
-            <li><a href="comparison.html">Comparison</a></li>
-            <li><a href="data.html">Data</a></li>
-          </ul>
+        </nav>
+      </div>
+    </header>
+    
+    <!-- Main Content-->
+    <main>
+      <div class="row">
+        <div class="col-lg-9 col-md-9 col-sm-12">
+          <article>
+            <h3>Summary: Latitude vs. X</h3>
+            <hr>
+            <img src="assets/images/maxtemp.png" class="image-portrait" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque minima quaerat eos deleniti corrupti, officia porro a veritatis eligendi tempora aut ipsum placeat similique quisquam accusantium, nam minus aliquam eum. Fugiat suscipit dignissimos ipsam laboriosam debitis veniam iusto recusandae alias illo sunt quia ullam aliquid architecto commodi sint ducimus velit, in ipsum sapiente quam reiciendis perspiciatis tempore! Earum, debitis eius!
+            Est sed accusantium rem ipsum repellendus vitae rerum necessitatibus fugiat sunt consequatur cum fuga quasi ipsa deserunt nemo omnis eius provident perferendis voluptatem, nihil tempore voluptatibus sequi. Voluptates, blanditiis iure!
+            <p>
+            Voluptate cum minus nulla inventore. Quod, illo qui laudantium aspernatur labore omnis adipisci quis at quos sint quae iste sit porro praesentium autem cumque? Esse officiis a eligendi libero hic?
+            Sint vel incidunt, alias porro dolorem aliquam quam velit saepe tenetur, ipsam fugiat? Assumenda reiciendis voluptate praesentium ad natus alias temporibus cupiditate facilis et non suscipit, error provident quod illo?
+          </article>
         </div>
-      </nav>
-    </div>
-  </header>
+        <div id="visual" class="col-lg-3 col-md-3 col-sm-12">
+          <article>
+            <h3>Visualizations</h3>
+            <hr>
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-3 col-3">
+                <a href="maxtemp.html">
+                  <img class="thumbnail" src="assets/images/maxtemp.png" alt="Max Temperature">
+                </a>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-3 col-3">
+                <a href="humidity.html">
+                  <img class="thumbnail" src="assets/images/humidity.png" alt="Humidity">
+                </a>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-3 col-3">
+                <a href="cloudiness.html">
+                  <img class="thumbnail" src="assets/images/cloudiness.png" alt="Fig 3">
+                </a>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-3 col-3">
+                <a href="windspeed.html">
+                  <img class="thumbnail" src="assets/images/windspeed.png" alt="Fig 4">
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
   
-  <!-- Main Content-->
-  <main>
-    <div class="row">
-      <div class="col-lg-9 col-md-9 col-sm-12">
-        <article>
-          <h3>Summary: Latitude vs. X</h3>
-          <hr>
-          <img src="assets/images/maxtemp.png" class="image-portrait" alt="">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque minima quaerat eos deleniti corrupti, officia porro a veritatis eligendi tempora aut ipsum placeat similique quisquam accusantium, nam minus aliquam eum. Fugiat suscipit dignissimos ipsam laboriosam debitis veniam iusto recusandae alias illo sunt quia ullam aliquid architecto commodi sint ducimus velit, in ipsum sapiente quam reiciendis perspiciatis tempore! Earum, debitis eius!
-          Est sed accusantium rem ipsum repellendus vitae rerum necessitatibus fugiat sunt consequatur cum fuga quasi ipsa deserunt nemo omnis eius provident perferendis voluptatem, nihil tempore voluptatibus sequi. Voluptates, blanditiis iure!
-          <p>
-          Voluptate cum minus nulla inventore. Quod, illo qui laudantium aspernatur labore omnis adipisci quis at quos sint quae iste sit porro praesentium autem cumque? Esse officiis a eligendi libero hic?
-          Sint vel incidunt, alias porro dolorem aliquam quam velit saepe tenetur, ipsam fugiat? Assumenda reiciendis voluptate praesentium ad natus alias temporibus cupiditate facilis et non suscipit, error provident quod illo?
-        </article>
-      </div>
-      <div id="visual" class="col-lg-3 col-md-3 col-sm-12">
-        <article>
-          <h3>Visualizations</h3>
-          <hr>
-          <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-3 col-3">
-              <a href="maxtemp.html">
-                <img class="thumbnail" src="assets/images/maxtemp.png" alt="Max Temperature">
-              </a>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-3 col-3">
-              <a href="humidity.html">
-                <img class="thumbnail" src="assets/images/humidity.png" alt="Humidity">
-              </a>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-3 col-3">
-              <a href="cloudiness.html">
-                <img class="thumbnail" src="assets/images/cloudiness.png" alt="Fig 3">
-              </a>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-3 col-3">
-              <a href="windspeed.html">
-                <img class="thumbnail" src="assets/images/windspeed.png" alt="Fig 4">
-              </a>
-            </div>
-          </div>
-        </article>
-      </div>
-    </div>
- 
-  </main>
+    </main>
 
-
-</body>
+  </body>
 </html>
