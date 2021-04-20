@@ -7,6 +7,7 @@ main {
 
 article {
     margin: auto;
+    // max-width: fit-content;
     padding: 20px;
     background-color: white;
     margin-bottom: 30px;
