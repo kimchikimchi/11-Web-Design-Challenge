@@ -38,6 +38,18 @@ article {
     height: 80px;
     margin: 5px;
     padding: 0px;
-    float: left; 
+    float: left; f
     /*Make sure thumbnails all stick together when resizing screen */
 }
+
+.thumbnail_large {
+    max-width: 300px;
+    margin: 20px;
+    padding: 0px;   
+}
+
+.fig_title {
+    margin: 0px;
+
+}
+
